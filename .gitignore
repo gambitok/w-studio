@@ -1,4 +1,4 @@
 .idea/
 node_modules/*
-!application/bootstrap/dist/
-!application/font-awesome/css/
+!node_modules/bootstrap/dist/
+!node_modules/font-awesome/css/
