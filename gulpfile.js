@@ -67,4 +67,4 @@ gulp.task('browser-sync', function(){
     gulp.watch('./js/*.js').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['sass', 'minify-css', 'uglify', 'browser-sync']);
+gulp.task('default', ['sass', 'minify-css', 'browser-sync']);
